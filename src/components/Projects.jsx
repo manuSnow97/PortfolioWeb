@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import studiosImg from '../assets/studios.png'
 import calculadoraImg from '../assets/calculadora.png'
 import mercadoliebreImg from '../assets/mercadoliebre.png'
+import tictactoeImg from '../assets/tictactoe.png'
 
 const Projects = () => {
     return (
@@ -12,6 +13,7 @@ const Projects = () => {
                 <ProjectItem img={studiosImg} title='1771 Studios' link={'https://github.com/manuSnow97/1771Studios'}/>
                 <ProjectItem img={mercadoliebreImg} title='Mercado Liebre' link={'https://github.com/manuSnow97/MercadoLiebre'} />
                 <ProjectItem img={calculadoraImg} title='Calculadora' link={'https://calculadora-ten-jade.vercel.app/'} />
+                <ProjectItem img={tictactoeImg} title='Tic-Tac-Toe' link={'https://tic-tac-toe-app-beta.vercel.app/'} />
             </div>
         </div>
     )
